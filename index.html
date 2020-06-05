@@ -12,11 +12,36 @@
     <title>JS Syntax Practice App</title>
   </head>
   <body>
-    <div>
-      <form id="practice-form">
-        <label for="syntax-check">Answers here:</label>
-        <textarea name="syntax-check" id="syntax-check"> </textarea>
-      </form>
+    <div class="container">
+
+      <!-- Area to put prompt text -->
+      <div class="row">
+        <div class="col" id="prompt-text">
+          Prompt text here
+        </div>
+      </div>
+
+      <!-- User input area -->
+      <div class="row">
+        <div class="col">
+          <form id="practice-form">
+            <label for="syntax-check">Answers here:</label>
+            <textarea
+              name="syntax-check"
+              id="syntax-check"
+              style="width: 100%;"
+            >
+            </textarea>
+          </form>
+        </div>
+      </div>
+
+      <!-- Area to put validation -->
+      <div class="row">
+        <div class="col">
+          Answer validation here
+        </div>
+      </div>
     </div>
     <script src="./variables.js"></script>
   </body>
