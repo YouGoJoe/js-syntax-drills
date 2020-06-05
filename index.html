@@ -24,14 +24,14 @@
       <!-- User input area -->
       <div class="row">
         <div class="col">
-          <form id="practice-form">
+          <form id="practice-form" method="POST"></form>
             <label for="syntax-check">Answers here:</label>
             <textarea
               name="syntax-check"
               id="syntax-check"
               style="width: 100%;"
-            >
-            </textarea>
+            ></textarea>
+            <button form="practice-form" type="submit">Validate</button>
           </form>
         </div>
       </div>
