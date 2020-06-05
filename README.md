@@ -1,0 +1,1 @@
+## Syntax practice for JS
